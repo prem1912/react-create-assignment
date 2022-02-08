@@ -1,0 +1,157 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  html {
+    font-size: 14px;
+  }
+  body {
+    line-height: 1.5;
+    color: black;
+    text-decoration: none ;
+  }
+  .site-container{
+    line-height: 2;
+  }
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  body {
+      line-height: 1;
+  }
+  ol, ul {
+      list-style: none;
+  }
+  blockquote, q {
+      quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: '';
+      content: none;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  .nav {
+    background-color: #eee;
+    padding: 0.5rem;
+    border-bottom: 1px solid #989898;
+    text-align: center;  
+    min-height: 50px;
+    margin-bottom: 1.5rem;
+  }
+  .nav-arrows {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 1rem;
+    height: 1rem;
+    font-size: 25px;
+    font-weight: 1000;
+  }
+  .btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+  }
+  h1{
+    margin: -10px;
+    margin: 0px 0px -10px 0px;
+    font-weight: 800;
+  }
+  .customer-info-block, .order-info-block, .product-list-block{
+    margin-bottom: 1.5rem;
+    border: 1px solid #dedede;
+    border-radius: 0.2rem;
+    padding: 10px;
+    background-color: #eee;
+  }
+  .one-third {
+    width: 30%;
+    float: left;
+    padding-left: 30px;
+  }
+  .order-info-block{
+    width: 98%;
+    height: 100px;
+  }
+  .product-arrow {
+    position: absolute;
+    right: 5%;
+    font-size: 30px;
+    font-weight: 1000;
+    margin: 50px 0px;
+    margin-top: -50px;
+  }
+  .product-list-block{
+    display: inline-block;
+    width: 100%;
+  }
+  
