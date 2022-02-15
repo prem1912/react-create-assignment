@@ -1,1 +1,71 @@
+.container {
+    width: auto;
+    height: auto;
+}
+.row {
+    display: block;
+    width: auto;
+}
+.yellow, .red, .blue {
+    display: flex;
+    /* display: block; */
+}
+.yellow .content {
+    background-color: orange;
+    margin: 10px;
+    height: 200px;
+}  
+.red .content {
+    background-color: rgb(238, 84, 97);
+    margin: 10px;
+    height: 200px;
+}
+.blue .content {
+    background-color: rgb(105, 123, 228);
+    margin: 10px;
+    height: 200px;
+}
+/* ---------------- Min Width : 1024 ----------------- */
+@media screen and (min-device-width:1024px){
+    .yellow .content {
+        flex: 1 1 auto;
+    }  
+    .red .content {
+        flex: 1 1 auto;
+    }  
+    .blue .content {
+        flex: 1 1 auto;
+    }  
+}
+
+/* ---------------- Min Width : 768 ----------------- */
+@media screen and (min-device-width:768px) and (max-device-width:1023px){
+    .yellow .content {
+        flex: 1 1 auto;
+    }  
+    .red .content {
+        flex: 1 1 auto;
+    }  
+    .blue {
+        flex-direction: column;
+    }  
+}
+
+/* ---------------- Min Width : 320 ----------------- */
+@media screen and (min-device-width:320px) and (max-device-width:767px){
+    .yellow {
+        flex-direction: column;
+    }  
+    .red .content {
+        flex: 1 1 auto;
+    }  
+    .blue {
+        flex-direction: column;
+    }  
+}
+
+
+
+
+
 
