@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+.app{
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+.p-name{
+  color: #61dafb;
+}
+.profile-details{
+  margin: 10px;
+  margin-left: -10px;
+}
+.profile-details label{
+  font-size: 13px;
+  color: #323234;
+}
+.profile-details label, .profile-details strong{
+  display: block;
+}
+.profile-img{
+  border-radius: 1rem;
+}
+.p-name{
+  margin-left: -15px;
+}
+.container{
+  width: 500px;
+  height: 5000px;
+}
